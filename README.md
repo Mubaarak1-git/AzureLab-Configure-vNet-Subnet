@@ -109,26 +109,64 @@ _Selected the “Add” button to finalize subnet configuration and attach it to
 
 ![Click Add ](Screenshots/Click%20Add%20for%20the%20Subnet.png)
 
-![Virtual Network](Screenshots/Click%20Next%20to%20assign%20Tags.png)
+### Step 19: Click Next  
+_Advanced to the next configuration blade after defining IP address space and adding subnets like **default** and **apps**. This step transitions from network layout to tagging._
 
-![Virtual Network](Screenshots/Click%20Name%20Dropdown.png)
+![Click Next](Screenshots/Click%20Next%20to%20assign%20Tags.png)
 
-![Virtual Network](Screenshots/Select%20Environment%20.png)
+### Step 20: Click Name dropdown  
+_Selected the tag **Name** dropdown to choose a predefined label for the virtual network. Tags help organize resources by environment, department, or cost center — making management and billing more efficient._
 
-![Virtual Network](Screenshots/Click%20Value%20dropdown.png)
+![Click Name dropdown](Screenshots/Click%20Name%20Dropdown.png)
 
-![Virtual Network](Screenshots/Select%20Production.png)
+### Step 21: Select Environment  
+_Selected “Environment” from the tag name dropdown to classify the virtual network by its deployment context — such as Development, Testing, or Production. Tagging improves cost tracking, automation, and resource visibility._
 
-![Virtual Network](Screenshots/Click%20Next%20to%20Review.png)
+![Select Environment](Screenshots/Select%20Environment%20.png)
 
-![Virtual Network](Screenshots/Click%20Create%20to%20Begin%20Deployment.png)
+### Step 22: Click Value dropdown  
+_Selected the tag **Value** dropdown to assign a specific environment label — such as Development, Staging, or Production — to the virtual network. This enhances resource tracking, automation, and cost attribution._
 
-![Virtual Network](Screenshots/Veiw%20the%20deployment%20.png)
+![Click Value dropdown](Screenshots/Click%20Value%20dropdown.png)
 
-![Virtual Network](Screenshots/Go%20to%20Resource%20after%20Deployemt%20finish.png)
+### Step 23: Select Production  
+_Chose “Production” from the tag Value dropdown to indicate the virtual network’s operational environment. This tag helps distinguish mission-critical workloads from development or staging, improving governance and cost tracking._
 
-![Virtual Network](Screenshots/Expand%20Settings.png)
+![Select Production](Screenshots/Select%20Production.png)
 
-![Virtual Network](Screenshots/Click%20Address%20Space.png)
+### Step 24: Click Next  
+Click to review the configured settings—this step confirms your vNet name, resource group, and prepares for IP range and subnet definition._
 
-![Virtual Network](Screenshots/)
+![Click Next](Screenshots/Click%20Next%20to%20Review.png)
+
+### Step 25: Click Create  
+_Selected the "Create" button to deploy the virtual network **AzureVNet** with its configured subnets, IP ranges, security settings, and tags. This action provisions the network infrastructure, enabling connectivity for dependent Azure services._
+
+![Click Create](Screenshots/Click%20Create%20to%20Begin%20Deployment.png)
+
+### Step 26: Deployment in progress  
+_Triggered deployment for **Web-App-17268972413**, initiating resource provisioning and configuration. This step monitors the deployment lifecycle and ensures successful setup of the web application environment._
+
+![Deployment in progress](Screenshots/Veiw%20the%20deployment%20.png)
+
+### Step 27: Click Go to resource  
+_Selected the “Go to resource” button after successful deployment of **vNet-App-17268972413**. This step opens the resource overview for post-deployment validation, configuration, and integration with other Azure services._
+
+![Click Go to resource](Screenshots/Go%20to%20Resource%20after%20Deployemt%20finish.png)
+
+### Step 28: Expand Settings  
+_Clicked the “Settings” section in the left sidebar to access advanced configuration options for the virtual network **vNet-App**. This includes diagnostics, access control, tagging, and integration with security services._
+
+![Step: Expand Settings](Screenshots/Expand%20Settings.png)
+
+### Step 29: Click Address space  
+_Selected the “Address space” field to review or modify the IP range assigned to **VNetApp**. This CIDR block defines the scope for subnetting and internal resource communication across the virtual network._
+
+![Click Address space](Screenshots/Click%20Address%20Space.png)
+
+### Final Step 30: Click Subnets  
+_Opened the **Subnets** blade to view and manage subnet configurations within the virtual network **vNet-App**. This includes subnet names, address ranges, service endpoints, NAT gateways, and security group assignments._
+
+🔚 _This marks the end of the virtual network setup steps. From here, you’ll see a detailed table of existing subnets and can begin provisioning workloads, applying policies, or integrating services like Azure Firewall or Bastion._
+
+![Click Subnets ](Screenshots/Click%20Subents.png)
